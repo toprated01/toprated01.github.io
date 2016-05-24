@@ -1,0 +1,18 @@
+<div class="text-center our-services">
+        <div class="row">
+		<form action="upload.php" method="POST">
+		  
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+            <center><img src="images/l.png" style="width:70%;height:50%";><center/><br/>
+				<b>Select Category</b></br>
+    					Entertainment<input type='radio' name='cat' value='ent' >
+						Education<input type='radio' name='cat' value='edu' >
+						Sports<input type='radio' name='cat' value='spo'>
+						Social<input type='radio' name='cat' value='soc'>
+						Management<input type='radio' name='cat' value='mgmt'><br/><br/>
+				
+		<input type="file" name="fileupload" >
+		<input type="submit" name="submit" value="SUBMIT">
+		</form>
+		</div>
+		</div>
